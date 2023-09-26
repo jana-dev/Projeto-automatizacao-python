@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(205,241,255);
+    background: linear-gradient(90deg, rgba(205,241,255,1) 0%, rgba(182,201,200,1) 51%, rgba(217,252,248,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-login{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-bottom: 40px;
+}
+input{
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+input:focus{
+    outline: none;
+}
+input[type="submit"]{
+    background: rgb(117,159,176);
+    background: linear-gradient(90deg, rgba(117,159,176,1) 0%, rgba(136,190,188,1) 51%, rgba(117,159,176,1) 100%);
+}
+input[type="submit"]:hover{
+    color: white;
+}
