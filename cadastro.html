@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro de Produtos</title>
 </head>
 <body>
-    
+    <div class="card-login">
+        <h1>Cadastro de Produtos</h1>
+        <div class="content-card">
+            <div class="form-cadastro">
+                <form>
+                    <label for="codigo">Código:</label>
+                    <input type="text" id="codigo" placeholder="Digite aqui o Código">
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca" placeholder="Digite aqui a Marca">
+                    <label for="categoria">Categoria:</label>
+                    <input type="text" id="categoria" placeholder="Digite aqui a Categoria">
+                    <label for="preco">Preço unitário:</label>
+                    <input type="text" id="preco" placeholder="Digite aqui o Preço unitário">
+                    <label for="obs">Observação:</label>
+                    <input type="text" id="obs" placeholder="Digite aqui alguma observação">
+                    <input type="submit" id="cadastrarButton" value="Cadastrar">
+                </form>
+            </div>
+            <div class="produtos-cadastrados">
+                <table id="cadastrados">
+                    <thead>
+                        <tr>
+                            <th colspan="5">Produtos Cadastrados</th>
+                        </tr>
+                        <tr>
+                            <th>Código</th>
+                            <th>Marca</th>
+                            <th>Caregoria</th>
+                            <th>Preço</th>
+                            <th>Observação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-cadastrados">
+                        <tr>
+                            <td>Teste</td>
+                            <td>Teste</td>
+                            <td>Teste</td>
+                            <td>Teste</td>
+                            <td>Teste</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
