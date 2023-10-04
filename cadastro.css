@@ -26,7 +26,8 @@ form{
 h1{
     margin: 40px 0 100px 0;
 }
-input{
+input,
+.bt-limpar-produtos{
     padding: 10px;
     border: none;
     margin-bottom: 20px;
@@ -34,12 +35,16 @@ input{
 input:focus{
     outline: none;
 }
-input[type="submit"]{
+input[type="submit"],
+.bt-limpar-produtos{
     background: rgb(117,159,176);
     background: linear-gradient(90deg, rgba(117,159,176,1) 0%, rgba(136,190,188,1) 51%, rgba(117,159,176,1) 100%);
 }
 input[type="submit"]:hover{
     color: white;
+}
+.bt-limpar-produtos{
+    margin-top: 30px;
 }
 
 .content-card{
